@@ -31,7 +31,6 @@ A `deapi` entry in `mcp.json` takes precedence over the one this package registe
 ## Notes
 
 - Jobs are paid from your deAPI balance. Every generation tool has a `*_price` twin that returns the cost without running the job.
-- deAPI filters NSFW content. A rejected prompt comes back as an error.
 - Requests carry an `X-Deapi-Source: pi` header so deAPI can see traffic from this package. Nothing about you or your prompts is added.
 
 ## License

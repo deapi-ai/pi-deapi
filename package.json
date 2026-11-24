@@ -1,6 +1,6 @@
 {
   "name": "@deapi/pi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "deAPI for Pi: images, video, speech, music, transcription of YouTube/TikTok/X links, video description and OCR through deAPI's MCP server, plus a skill that tells the agent how to use them.",
   "keywords": ["pi-package", "pi", "deapi", "mcp", "image-generation", "text-to-speech", "transcription", "video-generation"],
   "homepage": "https://github.com/deapi-ai/pi-deapi#readme",

@@ -18,7 +18,7 @@ export default function (pi: ExtensionAPI) {
     headers.Authorization = "Bearer ${DEAPI_API_KEY}";
   }
   pi.registerMcpServer("deapi", {
-    url: "https://mcp.deapi.ai/mcp",
+    url: "https://mcp.deapi.ai/mcp?source=pi",
     headers,
     description:
       "deAPI: generate images, video, speech and music; transcribe files and YouTube/TikTok/X/Twitch/Kick links; describe videos; OCR.",

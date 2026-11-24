@@ -23,7 +23,7 @@ Try: *"Transcribe https://www.youtube.com/watch?v=... and summarise it"* or *"Ma
 ### Without the package
 
 ```bash
-pi mcp add deapi --url https://mcp.deapi.ai/mcp --bearer-token-env-var DEAPI_API_KEY
+pi mcp add deapi --url "https://mcp.deapi.ai/mcp?source=pi" --bearer-token-env-var DEAPI_API_KEY
 ```
 
 A `deapi` entry in `mcp.json` takes precedence over the one this package registers.

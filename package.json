@@ -1,0 +1,20 @@
+{
+  "name": "@deapi/pi",
+  "version": "0.1.0",
+  "description": "deAPI for Pi: images, video, speech, music, transcription of YouTube/TikTok/X links, video description and OCR through deAPI's MCP server, plus a skill that tells the agent how to use them.",
+  "keywords": ["pi-package", "pi", "deapi", "mcp", "image-generation", "text-to-speech", "transcription", "video-generation"],
+  "homepage": "https://github.com/deapi-ai/pi-deapi#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/deapi-ai/pi-deapi.git" },
+  "bugs": { "url": "https://github.com/deapi-ai/pi-deapi/issues" },
+  "license": "MIT",
+  "author": "deAPI",
+  "type": "module",
+  "files": ["extensions", "skills", "README.md", "CHANGELOG.md", "LICENSE"],
+  "pi": {
+    "extensions": ["./extensions/deapi.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
